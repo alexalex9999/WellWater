@@ -1,0 +1,35 @@
+ @font-face { font-family: Light; src: url('GeosansLight.ttf'); } 
+    h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 36;
+    font-family: Light;
+    text-decoration: underline;
+    }
+#my-button {
+    background: darkcyan;
+    color: lightcyan;
+    font-family: Light;
+    margin-left: auto;
+    margin-right: auto;
+    width:200px;
+    margin-top: 20px;
+}
+#my-button::shadow paper-ripple {
+  color: blue;
+}
+body{
+background: #00b7ea; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #00b7ea 0%, #009ec3 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,#00b7ea), color-stop(100%,#009ec3)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #00b7ea 0%,#009ec3 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #00b7ea 0%,#009ec3 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #00b7ea 0%,#009ec3 100%); /* IE10+ */
+background: linear-gradient(135deg,  #00b7ea 0%,#009ec3 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00b7ea', endColorstr='#009ec3',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+h2{
+    text-align:center;
+    color: whitesmoke;
+    font-family: Light;
+}

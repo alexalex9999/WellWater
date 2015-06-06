@@ -1,0 +1,14 @@
+<link rel="import"
+      href="bower_components/polymer/polymer.html">
+<link rel="import" href="/components/iron-icons/iron-icons.html">
+    <iron-icon icon="arrow-back"></iron-icon>
+<script>
+  // register a new element called proto-element
+  Polymer({
+    is: "back-button",
+    // add a callback to the element's prototype
+    ready: function() {
+            window.location.href = "index.html";
+    }
+  });
+</script>

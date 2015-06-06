@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="components/bower_components/webcomponentsjs/webcomponents-lite.min.js"></script>
+    <link rel="import" href="components/test-element.html">
+    <link rel="import" href="components/bower_components/paper-button/paper-button.html">
+    <link rel="import" href="components/bower_components/iron-icons/core-icons.html">
+        <title>Well it's Time!</title>
+
+   <h1>
+       Well, it's time.
+    </h1> 
+    <br></br>
+<table align="center">
+    <tbody>
+        <tr>
+            <td>
+    <paper-button raised id=my-button onClick="water()">WATER</paper-button>
+                <script>
+function water() {
+    window.location.href = "water.html";
+}
+</script>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+    <paper-button raised id=my-button onClick="about()">ABOUT</paper-button>
+                                <script>
+function about() {
+    window.location.href = "about.html";
+}
+</script>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+    <paper-button raised id=my-button onClick="options()">OPTION</paper-button>
+                                                <script>
+function options() {
+    window.location.href = "options.html";
+}
+</script>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
